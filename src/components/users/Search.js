@@ -14,7 +14,9 @@ const Search = ({ searchUsers, clearUsers, showClear, setAlert }) => {
     }
   };
 
-  const onChange = (e) => setText(e.target.value);
+  const onChange = (e) => {
+    setText(e.target.value);
+  };
 
   return (
     <div>
